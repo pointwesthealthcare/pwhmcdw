@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
 	<ModulePrefs title="index" author="john.deguzman"/> 
-	<Content type="url" href="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/html/home/index.html" >
-	</Content>
+	<Content type="url" href="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/html/home/index.html" />
 </Module>
