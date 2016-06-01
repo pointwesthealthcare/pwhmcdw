@@ -3,7 +3,3 @@
 	<ModulePrefs title="index" author="john.deguzman"/> 
 		<Content type="url" href="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/html/home/index.html" />
 </Module>
-
-<div>
-	Sample content
-</div>
