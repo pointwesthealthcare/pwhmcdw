@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
 	<ModulePrefs title="index" author="john.deguzman"/> 
-	<Content type="url" href="http://www/cgi-bin/example/gadgets/mystats.cgi" />
+	<Content type="url" href="https://www.yahoo.com" />
 </Module>
