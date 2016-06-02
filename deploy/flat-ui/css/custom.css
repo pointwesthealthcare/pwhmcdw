@@ -1,0 +1,132 @@
+/*body*/
+.default {
+  background-color: transparent;
+  margin-top:83px;
+}
+
+/*container*/
+.container {
+  width: 970px !important;
+}
+
+/*navbar*/
+
+.navbar-inverse,
+.navbar-inverse .navbar-nav > .open > .dropdown-menu {
+  background-color: #2980b9;
+}
+
+.navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .active > a:focus:not(:hover) {
+  background-color: #6BB9F0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #6BB9F0;
+}
+
+.navbar-inverse .navbar-nav > .dropdown:not(.open) > a:hover .caret,
+.navbar-inverse .navbar-nav > .dropdown.active:not(.open) > a .caret,
+.navbar-inverse .navbar-nav > .dropdown.active:not(.open) > a:hover .caret{
+  border-top-color: #4b6075;
+}
+
+.navbar-inverse .navbar-nav > .dropdown.active > a:hover .caret,
+.navbar-inverse .navbar-nav > .dropdown.active > a:focus:not(:hover) .caret,
+.navbar-inverse .navbar-nav > .dropdown.active > a .caret {
+  border-top-color: #ffffff;
+}
+
+.navbar-inverse .navbar-form .input-group.focus .form-control,
+.navbar-inverse .navbar-form .input-group.focus .input-group-btn .btn {
+  border-color: #6BB9F0;
+  color: #6BB9F0;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  width: 100%;
+}
+
+.open > .dropdown-menu {
+  margin-top: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.navbar-nav > li > a {
+  font-size: 14px;
+  padding: 15px 26px;
+}
+
+.navbar-form.navbar-right:last-child {
+  width: 182px;
+  padding: 9px 21px;
+}
+
+.navbar-form .form-control {
+width: 100%;
+}
+
+.dropdown:not(.open) > a:focus:not(:hover) {
+  color: white;
+}
+
+.dropdown:not(.open) > a:focus:not(:hover) > .caret {
+  border-top-color: #4b6075;
+}
+
+.dropdown.open > a:not(:focus) > .caret {
+  border-top-color: white;
+}
+
+.dropdown-menu {
+  -webkit-transition: 0s;
+  transition-property: all;
+  transition-duration: 0s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+/*Body*/
+.summary {
+  padding: 10px 0;
+}
+
+.row-custom {
+  padding: 0 0 0 20px;
+}
+
+.row-first {
+  padding-top: 5px;
+}
+
+.col-custom {
+  padding: 5px;
+}
+
+.col-scale:hover {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+.scale-group:hover .col-scale:not(:hover) {
+  opacity: 0.4;
+}
