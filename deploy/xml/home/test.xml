@@ -11,20 +11,20 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
 	    <!-- Loading Bootstrap -->
-	    <link href="../../plugins/Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+	    <link href="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/plugins/Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet"/>
 	
 	    <!-- Loading Flat UI -->
-	    <link href="../../plugins/Flat-UI-master/css/flat-ui.css" rel="stylesheet"/>
+	    <link href="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/plugins/Flat-UI-master/css/flat-ui.css" rel="stylesheet"/>
 		
 		<!-- Loading Custom Theme -->
-		<link href="../../css/custom-theme.css" rel="stylesheet"/>
+		<link href="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/css/custom-theme.css" rel="stylesheet"/>
 		
-		<link rel="stylesheet" href="../../css/index.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/css/index.css" type="text/css" media="screen"/>
 		
 	    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
 	    <!--[if lt IE 9]>
-	      <script src="js/html5shiv.js"></script>
-	      <script src="js/respond.min.js"></script>
+	      <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/plugins/Flat-UI-master/js/html5shiv.js"></script>
+	      <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/plugins/Flat-UI-master/js/respond.min.js"></script>
 	    <![endif]-->
 	  </head>
 	  <body onbeforeunload="resetsearch()" class="default">
@@ -85,21 +85,21 @@
 	        -->
 			
 	        <article class="slide" id="showcasing" style="background-image: url(../../img/sample4.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-	            <img class="asset left-30 sp600 t90 z1" src="../../img/healthcareindustry.png" style="left: -966px; top: 90px; z-index: 1; display: inline;"/>
+	            <img class="asset left-30 sp600 t90 z1" src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/healthcareindustry.png" style="left: -966px; top: 90px; z-index: 1; display: inline;"/>
 	            <div class="info" style="display: none;">
 	                <h2>An insight of what makes health care industry different from other markets</h2> 
 	            </div>
 	        </article>
-	        <article class="slide" id="ideas" style="background-image: url(../../img/sample3.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+	        <article class="slide" id="ideas" style="background-image: url(https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/sample3.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
 	            <div class="info" style="display: none;">
 					<h2>New forms of care delivery that transforms the traditional models of providing healthcare services to cater specific individual needs</h2> 
 	            </div>
-	            <img class="asset left-480 sp900 t100 z1" src="../../img/revolutionincare.png" style="left: -814px; top: 100px; z-index: 1; display: inline;"/>
+	            <img class="asset left-480 sp900 t100 z1" src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/revolutionincare.png" style="left: -814px; top: 100px; z-index: 1; display: inline;"/>
 	
 	        </article>
-			<article class="slide" id="tour" style="background-image: url(../../img/sample.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+			<article class="slide" id="tour" style="background-image: url(https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/sample.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
 	            
-	            <img class="asset left-450 sp450 t135 z2" src="../../img/regulatoryreform.png" style="left: -450px; top: 135px; z-index: 2; display: inline;"/>
+	            <img class="asset left-450 sp450 t135 z2" src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/regulatoryreform.png" style="left: -450px; top: 135px; z-index: 2; display: inline;"/>
 	            <div class="info" style="display: none;">
 					<h2>What Patient Protection and Affordable Care Act is and its importance as a law</h2> 
 	                <!-- <h2>Industry Segments</h2>
@@ -107,9 +107,9 @@
 					<a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/" target="_top">Managed Care</a> -->
 	            </div>
 	        </article>
-	        <article class="slide" id="responsive" style="background-image: url(../../img/sample2.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-	            <img class="asset left-472 sp600 t120 z3" src="../../img/impactofnewscience.png" style="left: -732px; top: 120px; z-index: 3; display: inline;"/>
-	            <!-- <img class="asset left-190 sp500 t120 z2" src="../img/iphone.png" style="left: -732px; top: 120px; z-index: 2; display: inline;"> -->
+	        <article class="slide" id="responsive" style="background-image: url(https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/sample2.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+	            <img class="asset left-472 sp600 t120 z3" src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/impactofnewscience.png" style="left: -732px; top: 120px; z-index: 3; display: inline;"/>
+	            <!-- <img class="asset left-190 sp500 t120 z2" src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/iphone.png" style="left: -732px; top: 120px; z-index: 2; display: inline;"> -->
 	            <div class="info" style="display: none;">
 	                <h2>What personalized medicine is and how it changes the way we receive medications</h2>                
 	            </div>
@@ -130,18 +130,18 @@
 		</div>
 	
 	    <!-- Load JS here for greater good =============================-->
-	    <script src="../../flat-ui/js/jquery-1.8.3.min.js"></script>
-	    <script src="../../flat-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
-	    <script src="../../flat-ui/js/jquery.ui.touch-punch.min.js"></script>
-	    <script src="../../flat-ui/js/bootstrap.min.js"></script>
-	    <script src="../../flat-ui/js/bootstrap-select.js"></script>
-	    <script src="../../flat-ui/js/bootstrap-switch.js"></script>
-	    <script src="../../flat-ui/js/flatui-checkbox.js"></script>
-	    <script src="../../flat-ui/js/flatui-radio.js"></script>
-	    <script src="../../flat-ui/js/jquery.tagsinput.js"></script>
-	    <script src="../../flat-ui/js/jquery.placeholder.js"></script>
-		<script src="../../js/index-slider.js"></script>
-		<script src="../../js/custom-theme.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/jquery-1.8.3.min.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/jquery.ui.touch-punch.min.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/bootstrap.min.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/bootstrap-select.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/bootstrap-switch.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/flatui-checkbox.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/flatui-radio.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/jquery.tagsinput.js"></script>
+	    <script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/flat-ui/js/jquery.placeholder.js"></script>
+		<script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/js/index-slider.js"></script>
+		<script src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/js/custom-theme.js"></script>
 	  </body>
 	</html>
 
