@@ -1,0 +1,20 @@
+.summary > div{
+	font-size: 14px;
+	padding: 10px;
+	line-height: normal;  	
+	text-align:justify;	
+	display: flex;
+	align-items: center; 
+	background-color:orange;
+	height:462px;
+}
+
+.row-custom > .col-custom  > .col-scale {
+	font-size: 14px;
+	padding: 10px;
+	line-height: normal;  	
+}
+
+.row-custom > .col-custom  > .col-scale  > .read{
+	position: absolute; bottom: 0;
+}
