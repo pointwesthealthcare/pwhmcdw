@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+	<ModulePrefs title="index" author="john.deguzman"/> 
+	<Content type="html"
+<![CDATA[
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Flat UI Free</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Loading Bootstrap -->
+    <link href="../../plugins/Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+
+    <!-- Loading Flat UI -->
+    <link href="../../plugins/Flat-UI-master/css/flat-ui.css" rel="stylesheet"/>
+	
+	<!-- Loading Custom Theme -->
+	<link href="../../css/custom-theme.css" rel="stylesheet"/>
+	
+	<link rel="stylesheet" href="../../css/index.css" type="text/css" media="screen"/>
+	
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body onbeforeunload="resetsearch()" class="default">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="collapse navbar-collapse" id="navbar-collapse-01">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/index" target="_top">HOME</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">HEALTH CARE INDUSTRY</a>
+							<ul class="dropdown-menu">
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/health-care-industry-overview" target="_top">Overview</a></li>
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/health-care-industry-challenges" target="_top">Challenges</a></li>
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/health-care-industry-health-care-professionals" target="_top">Health Care Professionals</a></li>
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/health-care-industry-financing-and-economics" target="_top">Financing and Economics</a></li>
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/health-care-industry-key-measures" target="_top">Key Measures</a></li>
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/health-care-industry-regulations-and-standards" target="_top">Regulations and Standards</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">INDUSTRY SEGMENTS</a>
+							<ul class="dropdown-menu">
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/industry-segments-revenue-cycle-management" target="_top">Revenue Cycle Management</a></li>
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/industry-segments-hospital-and-hospital-systems" target="_top">Hospital and Hospital Systems</a></li>
+								<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/industry-segments-managed-care" target="_top">Managed Care</a></li>							
+							</ul>
+						</li>
+						<li><a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/industry-trends-and-updates" target="_top">INDUSTRY TRENDS AND UPDATES</a></li>
+					</ul>
+					<form action="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/system/app/pages/search" target="_top" class="navbar-form navbar-right" id="search" role="search">
+						<div class="form-group">
+							<div class="input-group">
+								<input class="form-control" type="search" placeholder="Search" id="navbarInput-01" name="q"/>
+								<span class="input-group-btn">
+									<button type="submit" class="btn"><span class="fui-search"></span></button>
+								</span>            
+							</div>
+						</div>               
+					</form>
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+	<section id="feature_slider" class="">
+        <!-- 
+            Each slide is composed by <img> and .info
+            - .info's position is customized with css in index.css
+            - each <img> parallax effect is declared by the following params inside its class:
+            
+            example: class="asset left-472 sp600 t120 z3"
+            left-472 means left: -472px from the center
+            sp600 is speed transition
+            t120 is top to 120px
+            z3 is z-index to 3
+            Note: Maintain this order of params
+        -->
+		
+        <article class="slide" id="showcasing" style="background-image: url(../../img/sample4.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+            <img class="asset left-30 sp600 t90 z1" src="../../img/healthcareindustry.png" style="left: -966px; top: 90px; z-index: 1; display: inline;"/>
+            <div class="info" style="display: none;">
+                <h2>An insight of what makes health care industry different from other markets</h2> 
+            </div>
+        </article>
+        <article class="slide" id="ideas" style="background-image: url(../../img/sample3.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+            <div class="info" style="display: none;">
+				<h2>New forms of care delivery that transforms the traditional models of providing healthcare services to cater specific individual needs</h2> 
+            </div>
+            <img class="asset left-480 sp900 t100 z1" src="../../img/revolutionincare.png" style="left: -814px; top: 100px; z-index: 1; display: inline;"/>
+
+        </article>
+		<article class="slide" id="tour" style="background-image: url(../../img/sample.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+            
+            <img class="asset left-450 sp450 t135 z2" src="../../img/regulatoryreform.png" style="left: -450px; top: 135px; z-index: 2; display: inline;"/>
+            <div class="info" style="display: none;">
+				<h2>What Patient Protection and Affordable Care Act is and its importance as a law</h2> 
+                <!-- <h2>Industry Segments</h2>
+                <a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/" target="_top">Hospital and Hospital Systems</a>
+				<a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/" target="_top">Managed Care</a> -->
+            </div>
+        </article>
+        <article class="slide" id="responsive" style="background-image: url(../../img/sample2.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+            <img class="asset left-472 sp600 t120 z3" src="../../img/impactofnewscience.png" style="left: -732px; top: 120px; z-index: 3; display: inline;"/>
+            <!-- <img class="asset left-190 sp500 t120 z2" src="../img/iphone.png" style="left: -732px; top: 120px; z-index: 2; display: inline;"> -->
+            <div class="info" style="display: none;">
+                <h2>What personalized medicine is and how it changes the way we receive medications</h2>                
+            </div>
+        </article>
+	</section>
+	
+	<div class="container">
+		<div class="row">
+			<p class="paragraph">The recent business transformation of POINTWEST into an industry centric organization demands for a deeper level of understanding on the sectors 
+				from which it wishes to focus.</p>
+			<p class="paragraph">
+				The Healthcare Industry being identified as one of the industries from which POINTWEST wishes to expand its business operations is very broad and 
+				POINTWEST's understanding of this domain is currently limited by the projects that it has been exposed to (i.e. Pharmaceutical and Medical Benefit Claims). 
+				With the plan to increase the market share of POINTWEST related services, the Healthcare Market Circle (HMC) must be able to understand the needs of these organizations, 
+				and this can be initiated through an appreciation of the domain and hence the initiative to document this domain understanding.
+			</p>
+		</div>
+	</div>
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="../../flat-ui/js/jquery-1.8.3.min.js"></script>
+    <script src="../../flat-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="../../flat-ui/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="../../flat-ui/js/bootstrap.min.js"></script>
+    <script src="../../flat-ui/js/bootstrap-select.js"></script>
+    <script src="../../flat-ui/js/bootstrap-switch.js"></script>
+    <script src="../../flat-ui/js/flatui-checkbox.js"></script>
+    <script src="../../flat-ui/js/flatui-radio.js"></script>
+    <script src="../../flat-ui/js/jquery.tagsinput.js"></script>
+    <script src="../../flat-ui/js/jquery.placeholder.js"></script>
+	<script src="../../js/index-slider.js"></script>
+	<script src="../../js/custom-theme.js"></script>
+  </body>
+</html>
+
+  ]]>
+  </Content>
+</Module>
