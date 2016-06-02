@@ -84,7 +84,7 @@
 	            Note: Maintain this order of params
 	        -->
 			
-	        <article class="slide" id="showcasing" style="background-image: url(../../img/sample4.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+	        <article class="slide" id="showcasing" style="background-image: url(https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/sample4.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
 	            <img class="asset left-30 sp600 t90 z1" src="https://raw.githubusercontent.com/pointwesthealthcare/pwhmcdw/master/deploy/img/healthcareindustry.png" style="left: -966px; top: 90px; z-index: 1; display: inline;"/>
 	            <div class="info" style="display: none;">
 	                <h2>An insight of what makes health care industry different from other markets</h2> 
